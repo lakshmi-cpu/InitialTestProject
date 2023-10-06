@@ -53,7 +53,7 @@ public class MockitoApplicationTests {
 		service.deleteUSerById(user.getId());
 		verify(repository, times(1)).deleteById(user.getId());
 	}
-	}
+}
 	
 	
 
